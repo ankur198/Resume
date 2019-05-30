@@ -9,9 +9,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="timeline">
-      <div v-for="item in timelineData.timestamps">
-        <div class="card">
+    <div id="resume">
+      <div id="social">
+        <div>
+          <img :src="social.image" alt="dp">
+        </div>
+        <div>
+          <div id="name">{{ social.name }}</div>
+          <a :href="`mailto:${social.email}`" id="email">{{ social.email }}</a>
+          <a :href="`tel:${social.phone}`" id="phone">{{ social.phone }}</a>
+          <a :href="social.github" id="github">{{ social.github }}</a>
+          <a :href="social.linkedin" id="linkedin">{{ social.linkedin }}</a>
+          <div id="description">{{ social.description }}</div>
+        </div>
+      </div>
+
+      <div class="timestamps">
+      <div class="card" v-if="item.show" v-for="item in timelineData">
             <div class="title">{{ item.title }}</div>
           <div class="date">{{ item.date }}</div>
           <div class="description">{{ item.description }}</div>
@@ -23,6 +37,7 @@
           <a class="link" v-if="item.link" :href="item.link">{{ item.link }}</a>
         </div>
       </div>
+    </div>
     </div>
     <script src="script.js"></script>
   </body>

@@ -5630,10 +5630,11 @@
 });
 
 var x = new Vue({
-  el: "#timeline",
+  el: "#resume",
 
   data: {
-    timelineData: ""
+    timelineData: "",
+    social:"",
   },
 
   mounted(){
@@ -5648,7 +5649,8 @@ var x = new Vue({
 
         formattedData.timestamps.reverse()
     
-        this.timelineData = formattedData
+        this.timelineData = formattedData.timestamps
+        this.social = formattedData.social
         },
   }
 });

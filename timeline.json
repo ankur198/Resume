@@ -3,54 +3,62 @@
     {
       "date": "04/04/2016",
       "title": "Completed 12th from CBSE",
-      "description": "Completed 10th and 12th with 78% and 72%."
+      "description": "Completed 10th and 12th with 78% and 72%.",
+      "show": true
     },
 
     {
       "date": "1/06/2020",
       "title": "B.Tech (ongoing)",
       "description": "Studying B.Tech from GNIOT affiliated to A.K.T.U.",
-      "technologies": ["computer science and engineering"]
+      "technologies": ["computer science and engineering"],
+      "show": true
     },
 
     {
       "date": "14/08/2015",
       "title": "Robotic Arm Model",
       "technologies": ["python", "arduino", "processing"],
-      "description": "Second in project exhibition by Directorate of Education in Delhi. First in project exhibition in zone, district and state level by CBSE."
+      "description": "Second in project exhibition by Directorate of Education in Delhi. First in project exhibition in zone, district and state level by CBSE.",
+      "show": true
     },
 
     {
       "date": "06/11/2015",
       "title": "IoT Traffic Management Model",
       "description": "Was awarded 2nd by Delhi Urban Art Commission.",
-      "technologies": ["c#", "windows phone 8", "metro app", "arduino"]
+      "technologies": ["c#", "windows phone 8", "metro app", "arduino"],
+      "show": true
     },
 
     {
       "date": "26/04/2016",
       "title": "Earned two MTA Certificate",
       "description": "Self studied from MVA and other online resources.",
-      "technologies": ["c#", "html"]
+      "technologies": ["c#", "html"],
+      "show": true
     },
 
     {
       "date": "25/12/2016",
       "title": "Website for Madanlal Sweets",
-      "technologies": ["c#", "asp.net 4.5", "mssql", "azure"]
+      "technologies": ["c#", "asp.net 4.5", "mssql", "azure"],
+      "show": true
     },
 
     {
       "date": "03/07/2017",
       "title": "Coding Competition Winner",
       "description": "Winner in AKTU zonal level coding competitions",
-      "technologies": ["C", "c#"]
+      "technologies": ["C", "c#"],
+      "show": true
     },
     {
       "date": "04/07/2017",
       "title": "Made an PWM wireless controlled car.",
       "description": "Participated in AKTU Robo-Race Competition. It was unique car there, wireless and having precise control.",
-      "technologies": ["raspberry", "windows 10 iot", "c#", "wifi"]
+      "technologies": ["raspberry", "windows 10 iot", "c#", "wifi"],
+      "show": true
     },
 
     {
@@ -58,14 +66,25 @@
       "title": "Android Game Published",
       "description": "Published an 2d android game on play store.",
       "technologies": ["java", "c", "opengl es", "android studio"],
-      "link": "https://play.google.com/store/apps/details?id=com.nigam.ankur.chainreactionmultiplayer"
+      "link": "https://play.google.com/store/apps/details?id=com.nigam.ankur.chainreactionmultiplayer",
+      "show": true
+    },
+
+    {
+      "date": "16/08/2018",
+      "title": "ERP and registration system",
+      "description": "Created erp and registration system for College's Cultural Club. With more than 150 user request at peak time.",
+      "technologies": ["asp.net core 2", "pwa", "vue", "sqlite", "azure"],
+      "link": "https://play.google.com/store/apps/details?id=iot.ankur.gniotculturalclub",
+      "show": true
     },
 
     {
       "date": "06/12/2018",
       "title": "Contributed on Nano Framework",
       "description": "Actively found and resolved bugs for the open source Nano Framework and its release of MQTT in stable.",
-      "technologies": ["nano-framework", "c#", "c++", "visual studio"]
+      "technologies": ["nano-framework", "c#", "c++", "visual studio"],
+      "show": true
     },
 
     {
@@ -80,7 +99,8 @@
         "notification api",
         "javascript"
       ],
-      "link": "https://github.com/ankur198/MotionDetectionSurvilance"
+      "link": "https://github.com/ankur198/MotionDetectionSurvilance",
+      "show": true
     },
 
     {
@@ -88,7 +108,8 @@
       "title": "Library for Console Gui (ongoing)",
       "description": "Fun ongoing side project. Aim is to create a library that provides console gui components to be used in simple console app.",
       "technologies": ["c#", "console", ".net standard"],
-      "link": "https://github.com/ankur198/ConsoleGui-CSharp"
+      "link": "https://github.com/ankur198/ConsoleGui-CSharp",
+      "show": true
     }
   ],
 
@@ -98,6 +119,7 @@
     "phone": "+91-8130030198",
     "github": "https://github.com/ankur198/",
     "linkedin": "https://www.linkedin.com/in/ankuriot/",
-    "image": "./dp1.jpg"
+    "image": "./dp1.jpg",
+    "description":"Heavily focused on C# and Iot with intermediate skills in Front-end"
   }
 }
