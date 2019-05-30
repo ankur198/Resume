@@ -29,8 +29,7 @@
             <div class="title">{{ item.title }}</div>
           <div class="date">{{ item.date }}</div>
           <div class="description">{{ item.description }}</div>
-          <div v-if="item.technologies" class="technologies"> technologies used:
-            <div v-for="technologies in item.technologies">
+          <div v-if="item.technologies" class="technologies"> technologies used:         <div v-for="technologies in item.technologies">
               {{ technologies }}
             </div>
           </div>
