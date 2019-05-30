@@ -6,14 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="resume">
       <div id="social">
         <div>
-          <img :src="social.image" alt="dp">
+          <img :src="social.image" alt="dp" />
+
+          <div id="download">
+            <a href="./Resume-AnkurNigam.pdf">Download Resume</a>
+          </div>
+          <div id="url">
+            <a href="https://ankur198.github.io/Resume/">View Online</a>
+          </div>
         </div>
+
         <div>
           <div id="name">{{ social.name }}</div>
           <a :href="`mailto:${social.email}`" id="email">{{ social.email }}</a>
@@ -25,18 +33,19 @@
       </div>
 
       <div class="timestamps">
-      <div class="card" v-if="item.show" v-for="item in timelineData">
-            <div class="title">{{ item.title }}</div>
+        <div class="card" v-if="item.show" v-for="item in timelineData">
+          <div class="title">{{ item.title }}</div>
           <div class="date">{{ item.date }}</div>
           <div class="description">{{ item.description }}</div>
-          <div v-if="item.technologies" class="technologies"> technologies used:         <div v-for="technologies in item.technologies">
+          <div v-if="item.technologies" class="technologies">
+            technologies used:
+            <div v-for="technologies in item.technologies">
               {{ technologies }}
             </div>
           </div>
           <a class="link" v-if="item.link" :href="item.link">{{ item.link }}</a>
         </div>
       </div>
-    </div>
     </div>
     <script src="script.js"></script>
   </body>

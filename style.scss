@@ -127,6 +127,23 @@ body{
   }
 }
 
+#download, #url{
+  display: none;
+  justify-content: center;
+}
+
+@media only screen{
+  #download{
+    display: flex;
+  }
+}
+
+@media only print{
+  #url{
+    display: flex;
+  }
+}
+
 @media only screen and (max-width:900px ){
   .card{
     width: 100%;

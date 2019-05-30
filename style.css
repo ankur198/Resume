@@ -133,6 +133,29 @@ body {
   content: "Link: ";
 }
 
+#download, #url {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen {
+  #download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only print {
+  #url {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .card {
     width: 100%;
