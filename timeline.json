@@ -15,7 +15,7 @@
 
     {
       "date": "14/08/2015",
-      "title": "Robotic Arm Model - Winner",
+      "title": "Robotic Arm Model",
       "technologies": ["python", "arduino", "processing"],
       "description": "Second in project exhibition by Directorate of Education in Delhi. First in project exhibition in zone, district and state level by CBSE."
     },
@@ -29,7 +29,7 @@
 
     {
       "date": "26/04/2016",
-      "title": "Earned two Microsoft Technology Certificate",
+      "title": "Earned two MTA Certificate",
       "description": "Self studied from MVA and other online resources.",
       "technologies": ["c#", "html"]
     },
@@ -41,9 +41,15 @@
     },
 
     {
+      "date": "03/07/2017",
+      "title": "Coding Competition Winner",
+      "description": "Winner in AKTU zonal level coding competitions",
+      "technologies": ["C", "c#"]
+    },
+    {
       "date": "04/07/2017",
       "title": "Made an PWM wireless controlled car.",
-      "description": "Participated in Robo-Race Competition. It was unique car there, wireless and having precise control.",
+      "description": "Participated in AKTU Robo-Race Competition. It was unique car there, wireless and having precise control.",
       "technologies": ["raspberry", "windows 10 iot", "c#", "wifi"]
     },
 
@@ -87,6 +93,7 @@
   ],
 
   "social": {
+    "name": "Ankur Nigam",
     "email": "ankur.nigam198@live.com",
     "phone": "+91-8130030198",
     "github": "https://github.com/ankur198/",

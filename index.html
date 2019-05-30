@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="timeline">
+      <div v-for="item in timelineData.timestamps">
+        <div class="card">
+            <div class="title">{{ item.title }}</div>
+          <div class="date">{{ item.date }}</div>
+          <div class="description">{{ item.description }}</div>
+          <div v-if="item.technologies" class="technologies"> technologies used:
+            <div v-for="technologies in item.technologies">
+              {{ technologies }}
+            </div>
+          </div>
+          <a class="link" v-if="item.link" :href="item.link">{{ item.link }}</a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

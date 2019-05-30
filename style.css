@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Tinos&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tinos", serif;
+  line-height: 1.2em;
+}
+
+#timeline {
+  display: -ms-grid;
+  display: grid;
+  background: white;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  background: #fafafa;
+  padding: 5px;
+  margin: 7px 10px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0.5px 0.5px 5px 0.5px grey;
+          box-shadow: 0.5px 0.5px 5px 0.5px grey;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0.7px 0.7px 7px 0.7px grey;
+          box-shadow: 0.7px 0.7px 7px 0.7px grey;
+}
+
+.card .title {
+  display: inline;
+  font-weight: 1000;
+  font-size: 1.2em;
+  font-family: "Roboto Mono", monospace;
+}
+
+.card .date {
+  display: inline;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.card .technologies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  margin: 1.5px 0;
+}
+
+.card .technologies div {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  margin: 2px;
+}
+
+.card .technologies div:after {
+  display: inline-block;
+  content: ",";
+  -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+}
+
+.card .technologies div:last-child::after {
+  content: "";
+}
+
+.card .description {
+  font-size: 1.1em;
+  padding: .2em 0;
+}
+/*# sourceMappingURL=style.css.map */
