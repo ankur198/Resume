@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <div id="resume">
-      <div id="social">
-        <div>
-          <img :src="social.image" alt="dp" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div id="resume">
+            <div id="social">
+                <div>
+                    <img :src="social.image" alt="dp" />
 
-          <div id="download">
-            <a href="./Resume-AnkurNigam.pdf">Download Resume</a>
-          </div>
-          <div id="url">
-            <a href="https://ankur198.github.io/Resume/">View Online</a>
-          </div>
-        </div>
+                    <div id="download">
+                        <a href="./Resume-AnkurNigam.pdf">Download Resume</a>
+                    </div>
+                    <div id="url">
+                        <a href="https://ankur198.github.io/Resume/"
+                            >View Online</a
+                        >
+                    </div>
+                </div>
 
-        <div id="details">
-          <div id="name">{{ social.name }}</div>
-          <a :href="`mailto:${social.email}`" id="email">{{ social.email }}</a>
-          <a :href="`tel:${social.phone}`" id="phone">{{ social.phone }}</a>
-          <div id="dob">{{ social.dob }}</div>
-          <a :href="social.github" id="github">{{ social.github }}</a>
-          <a :href="social.linkedin" id="linkedin">{{ social.linkedin }}</a>
-          <div id="description">{{ social.description }}</div>
-        </div>
-      </div>
-      <div class="timestamps">
-        <div class="card" v-if="item.show" v-for="item in timelineData">
-          <div class="title">{{ item.title }}</div>
-          <div class="date">{{ item.date }}</div>
-          <div class="description">{{ item.description }}</div>
-          <div v-if="item.technologies" class="technologies">
-            <div v-for="technologies in item.technologies">
-              {{ technologies }}
+                <div id="details">
+                    <div id="name">{{ social.name }}</div>
+                    <a :href="`mailto:${social.email}`" id="email">{{
+                        social.email
+                    }}</a>
+                    <a :href="`tel:${social.phone}`" id="phone">{{
+                        social.phone
+                    }}</a>
+                    <div id="dob">{{ social.dob }}</div>
+                    <a :href="social.github" id="github">{{ social.github }}</a>
+                    <a :href="social.linkedin" id="linkedin">{{
+                        social.linkedin
+                    }}</a>
+                    <div id="description">{{ social.description }}</div>
+                </div>
             </div>
-          </div>
-          <a class="link" v-if="item.link" :href="item.link">{{ item.link }}</a>
+            <div class="timestamps">
+                <div class="card" v-if="item.show" v-for="item in timelineData">
+                    <div class="title">{{ item.title }}</div>
+                    <div class="date">{{ item.date }}</div>
+                    <div class="description">{{ item.description }}</div>
+                    <div v-if="item.technologies" class="technologies">
+                        <div v-for="technologies in item.technologies">
+                            {{ technologies }}
+                        </div>
+                    </div>
+                    <a class="link" v-if="item.link" :href="item.link">{{
+                        item.link
+                    }}</a>
+                </div>
+            </div>
+            <div class="education">
+                <hr />
+                <div class="educationItem educationHeading">
+                    <div class="name">Couse</div>
+                    <div class="branch">Branch</div>
+                    <div class="board">Board</div>
+                    <div class="percentage">CGPA</div>
+                    <div class="percentage">Year</div>
+                </div>
+                <div class="educationItem">
+                    <div class="name">B.Tech</div>
+                    <div class="branch">CS</div>
+                    <div class="board">AKTU</div>
+                    <div class="percentage">7.1 CGPA</div>
+                    <div class="percentage">2020</div>
+                </div>
+                <div class="educationItem">
+                    <div class="name">12th</div>
+                    <div class="branch">PCM</div>
+                    <div class="board">CBSE</div>
+                    <div class="percentage">7.2 CGPA</div>
+                    <div class="percentage">2016</div>
+                </div>
+                <div class="educationItem">
+                    <div class="name"><pre>10th     </pre></div>
+                    <!--pre align-->
+                    <div class="branch"><pre>---</pre></div>
+                    <div class="board">CBSE</div>
+                    <div class="percentage">7.8 CGPA</div>
+                    <div class="percentage">2014</div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+        <script src="script.js"></script>
+    </body>
 </html>

@@ -6,213 +6,229 @@ $timeline-color: rgb(255, 255, 255);
 $font1: "Roboto Mono", monospace;
 $font2: "Tinos", serif;
 * {
-  margin: 0;
-  padding: 0;
-  font-family: $font2;
-  box-sizing: border-box;
-  line-height: 2em;
-  word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    font-family: $font2;
+    box-sizing: border-box;
+    line-height: 2em;
+    word-wrap: break-word;
 }
 
-body{
-  padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+body {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#social{
-  //padding: 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
+#social {
+    //padding:
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 
-  a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding-bottom: 2px;
-  }
+    a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding-bottom: 2px;
+    }
 
-  img{
-    //align-self: flex-end;
-    margin-top: 5px;
-    margin-right: 5px;
-    width: 120px;
-    border-radius: 20px;
-  }
+    img {
+        //align-self: flex-end;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 120px;
+        border-radius: 20px;
+    }
 
-  #name{
-    font-family: $font1;
-    font-size: 1.5em;
-    font-weight: 900;
-  }
-  #description{
-    font-weight: 900;
-  }
+    #name {
+        font-family: $font1;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+    #description {
+        font-weight: 900;
+    }
 }
 
 .timestamps {
-  
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-content: space-around;
-  //flex-direction: column;
-  background: $timeline-color;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    //flex-direction: column;
+    background: $timeline-color;
 }
 
 .card {
-  
-  padding: 15px;
-  min-width: 26px;
-  background: $card-color;
-  margin-top: 20px;
-  //margin: 20px 20px 0px 20px;
-  //margin-bottom: 7px;
-  border-radius: 5px;
-  box-shadow: 0.5px 0.5px 5px 0.5px grey;
-  transition: 0.3s;
-
-  &:hover {
-    box-shadow: 0.7px 0.7px 7px 0.7px grey;
-  }
-
-  .title {
-    display: inline;
-    font-weight: 1000;
-    font-size: 1.1em;
-    font-family: $font1;
-  }
-
-  .date {
-    display: inline;
-    font-weight: 500;
-    font-size: 1.2em;
-  }
-
-  .technologies {
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 600;
-    //font-style: italic;
-    //font-size: 1.1em;
-    color: rgb(75, 75, 204);
-    text-transform: capitalize;
-
-    &::before{
-      content: 'Technologies used: ';
-      margin-right: 2px;
-      color: black;
-    }
-
-    div {
-      transform: translateY(-2px);
-      margin: 2px;
-      &:after {
-        display: inline-block;
-        content: ",";
-        transform: translateX(-2px);
-      }
-
-      &:last-child {
-        &::after {
-          content: "";
-        }
-      }
-    }
-  }
-
-  .description {
-    //font-size: 1.1em;
-    padding: .2em 0;
-    line-height: 1.5em;
-  }
-
-  .link{
-    color: black;
-    //text-decoration: none;
-    &:hover, &:visited{
-      color: black
-    }
-    &:before{
-      content: "Link: ";
-      text-decoration: none;
-    }
-  }
-}
-
-#download, #url{
-  display: none;
-  justify-content: center;
-  font-weight: 600;
-}
-
-@media only screen{
-  #download{
-    display: flex;
-  }
-}
-
-@media only print{
-
-  *{
-    line-height: 1.7em;
-  }
-
-  #url{
-    display: flex;
-  }
-
-  #social{
-    flex-direction: row-reverse;
-
-    #details{
-      text-align: left;
-    }
-  }
-
-  .timestamps{
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    margin-top: 50px;
-  }
-
-  .card{
-    //break-before: always;
-    page-break-inside: avoid;
+    padding: 15px;
+    min-width: 26px;
+    background: $card-color;
     margin-top: 20px;
-    background-color: white;
-    box-shadow: none;
-    border: 1px solid grey;
+    //margin: 20px 20px 0px 20px;
+    //margin-bottom: 7px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 5px 0.5px grey;
+    transition: 0.3s;
 
-    &:nth-child(5) , &:nth-child(6)
-    {
-      margin-top: 200px;
+    &:hover {
+        box-shadow: 0.7px 0.7px 7px 0.7px grey;
     }
-  }
-  
+
+    .title {
+        display: inline;
+        font-weight: 1000;
+        font-size: 1.1em;
+        font-family: $font1;
+    }
+
+    .date {
+        display: inline;
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .technologies {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 600;
+        //font-style: italic;
+        //font-size: 1.1em;
+        color: rgb(75, 75, 204);
+        text-transform: capitalize;
+
+        &::before {
+            content: "Technologies used: ";
+            margin-right: 2px;
+            color: black;
+        }
+
+        div {
+            transform: translateY(-2px);
+            margin: 2px;
+            &:after {
+                display: inline-block;
+                content: ",";
+                transform: translateX(-2px);
+            }
+
+            &:last-child {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+
+    .description {
+        //font-size: 1.1em;
+        padding: 0.2em 0;
+        line-height: 1.5em;
+    }
+
+    .link {
+        color: black;
+        //text-decoration: none;
+        &:hover,
+        &:visited {
+            color: black;
+        }
+        &:before {
+            content: "Link: ";
+            text-decoration: none;
+        }
+    }
 }
 
-@media (min-width:700px)
-{
-
-  #social{
-    flex-direction: row-reverse;
-
-    #details{
-      text-align: left;
-    }
-  }
-
-  .timestamps{
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-  }
+#download,
+#url {
+    display: none;
+    justify-content: center;
+    font-weight: 600;
 }
 
-@media (min-width:1200px){
-  .timestamps{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+@media only screen {
+    #download {
+        display: flex;
+    }
+}
+
+@media only print {
+    * {
+        line-height: 1.7em;
+    }
+
+    #url {
+        display: flex;
+    }
+
+    #social {
+        flex-direction: row-reverse;
+
+        #details {
+            text-align: left;
+        }
+    }
+
+    .timestamps {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+        margin-top: 50px;
+    }
+
+    .card {
+        //break-before: always;
+        page-break-inside: avoid;
+        margin-top: 20px;
+        background-color: white;
+        box-shadow: none;
+        border: 1px solid grey;
+
+        &:nth-child(5),
+        &:nth-child(6) {
+            margin-top: 200px;
+        }
+    }
+}
+
+.education {
+    margin-top: 20px;
+    font-family: $font1;
+    &::before {
+        content: "Education";
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .educationHeading {
+        font-weight: 900;
+    }
+    .educationItem {
+        display: flex;
+        justify-content: space-between;
+        .name {
+            font-weight: 600;
+        }
+    }
+}
+
+@media (min-width: 700px) {
+    #social {
+        flex-direction: row-reverse;
+
+        #details {
+            text-align: left;
+        }
+    }
+
+    .timestamps {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timestamps {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

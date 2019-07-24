@@ -108,7 +108,7 @@ body {
 }
 
 .card .technologies::before {
-  content: 'Technologies used: ';
+  content: "Technologies used: ";
   margin-right: 2px;
   color: black;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .card .description {
-  padding: .2em 0;
+  padding: 0.2em 0;
   line-height: 1.5em;
 }
 
@@ -148,7 +148,8 @@ body {
   text-decoration: none;
 }
 
-#download, #url {
+#download,
+#url {
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -199,6 +200,34 @@ body {
   .card:nth-child(5), .card:nth-child(6) {
     margin-top: 200px;
   }
+}
+
+.education {
+  margin-top: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.education::before {
+  content: "Education";
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.education .educationHeading {
+  font-weight: 900;
+}
+
+.education .educationItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.education .educationItem .name {
+  font-weight: 600;
 }
 
 @media (min-width: 700px) {
