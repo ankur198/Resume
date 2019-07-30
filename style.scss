@@ -140,7 +140,7 @@ body {
 
 .qr {
     margin-top: 50px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -183,6 +183,9 @@ body {
     }
     .card:nth-child(6) {
         padding-top: 100px;
+    }
+    .qr {
+        display: flex;
     }
 
     //     .timestamps {

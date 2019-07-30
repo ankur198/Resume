@@ -137,9 +137,7 @@ body {
 
 .qr {
   margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -193,6 +191,11 @@ body {
   }
   .card:nth-child(6) {
     padding-top: 100px;
+  }
+  .qr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
