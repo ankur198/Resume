@@ -45,16 +45,18 @@
             <div class="timestamps">
                 <div class="card" v-if="item.show" v-for="item in timelineData">
                     <div class="title">{{ item.title }}</div>
-                    <div class="date">{{ item.date }}</div>
-                    <div class="description">{{ item.description }}</div>
-                    <div v-if="item.technologies" class="technologies">
-                        <div v-for="technologies in item.technologies">
-                            {{ technologies }}
+                    <div class="card-body">
+                        <div class="date">{{ item.date }}</div>
+                        <div class="description">{{ item.description }}</div>
+                        <div v-if="item.technologies" class="technologies">
+                            <div v-for="technologies in item.technologies">
+                                {{ technologies }}
+                            </div>
                         </div>
+                        <a class="link" v-if="item.link" :href="item.link">{{
+                            item.link
+                        }}</a>
                     </div>
-                    <a class="link" v-if="item.link" :href="item.link">{{
-                        item.link
-                    }}</a>
                 </div>
             </div>
             <div class="education">
@@ -88,6 +90,10 @@
                     <div class="percentage">7.8 CGPA</div>
                     <div class="percentage">2014</div>
                 </div>
+            </div>
+            <div class="qr">
+                <img src="./linkqr.png" alt="qrCode" />
+                <h3>Scan to see online</h3>
             </div>
         </div>
         <script src="script.js"></script>

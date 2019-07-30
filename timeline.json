@@ -25,24 +25,10 @@
         },
 
         {
-            "date": "25/12/2016",
-            "title": "Website for Madanlal Sweets",
-            "technologies": ["c#", "asp.net 4.5", "mssql", "azure"],
-            "show": true
-        },
-
-        {
             "date": "03/07/2017",
             "title": "Coding Competition Winner",
             "description": "Winner in AKTU zonal level coding competitions",
             "technologies": ["C", "c#"],
-            "show": true
-        },
-        {
-            "date": "04/07/2017",
-            "title": "Made an PWM wireless controlled car.",
-            "description": "Participated in AKTU Robo-Race Competition. It was unique car there, wireless and having precise control.",
-            "technologies": ["raspberry", "windows 10 iot", "c#", "wifi"],
             "show": true
         },
 
