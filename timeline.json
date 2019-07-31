@@ -36,7 +36,7 @@
             "date": "27/11/2017",
             "title": "Android Game Published",
             "description": "Published an 2d android game on play store.",
-            "technologies": ["java", "c", "opengl es", "android studio"],
+            "technologies": ["java", "android studio"],
             "link": "https://play.google.com/store/apps/details?id=com.nigam.ankur.chainreactionmultiplayer",
             "show": true
         },
