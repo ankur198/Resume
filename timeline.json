@@ -75,11 +75,11 @@
         },
 
         {
-            "date": "26/05/2019",
-            "title": "Library for Console Gui (ongoing)",
-            "description": "Fun ongoing side project. Aim is to create a library that provides console gui components to be used in simple console app.",
-            "technologies": ["c#", "console", ".net standard"],
-            "link": "https://github.com/ankur198/ConsoleGui-CSharp",
+            "date": "03/09/2019",
+            "title": "E-Commerce Website (ongoing)",
+            "description": "Making a beverage selling website for a startup",
+            "technologies": ["Vue", "Firebase", "Typescript","Paytm","Shiprocket"],
+            "link": "https://github.com/IndianChaiCompany",
             "show": true
         }
     ],
@@ -92,6 +92,6 @@
         "linkedin": "https://www.linkedin.com/in/ankuriot/",
         "image": "./19951777.png",
         "dob": "19/05/1998 - 21 years old",
-        "description": "Heavily focused on C# and IoT with intermediate skills in Front-end"
+        "description": "Heavily focused on C#, Python, Javascript and IoT"
     }
 }
