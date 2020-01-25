@@ -75,11 +75,11 @@
         },
 
         {
-            "date": "03/09/2019",
-            "title": "E-Commerce Website (ongoing)",
-            "description": "Making a beverage selling website for a startup",
-            "technologies": ["Vue", "Firebase", "Typescript","Paytm","Shiprocket"],
-            "link": "https://github.com/IndianChaiCompany",
+            "date": "12/01/2020",
+            "title": "Microservices based ERP",
+            "description": "Multiple api providers for different services, packed into containers",
+            "technologies": ["C#", "Identity Server", "Quasar","OAuth2","Docker"],
+            "link": "https://github.com/VirtualCollegeGnit",
             "show": true
         }
     ],
