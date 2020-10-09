@@ -1,97 +1,119 @@
 {
-    "timestamps": [
-        {
-            "date": "14/08/2015",
-            "title": "Robotic Arm Model",
-            "technologies": ["python", "arduino", "processing"],
-            "description": "Second in project exhibition by Directorate of Education in Delhi. First in project exhibition in zone, district and state level by CBSE.",
-            "show": true
-        },
+  "timestamps": [
+    {
+      "date": "14/08/2015",
+      "title": "Robotic Arm Model",
+      "technologies": ["python", "arduino", "processing"],
+      "description": "Second in project exhibition by Directorate of Education in Delhi. First in project exhibition in zone, district and state level by CBSE.",
+      "show": true
+    },
 
-        {
-            "date": "06/11/2015",
-            "title": "IoT Traffic Management Model",
-            "description": "Was awarded 2nd by Delhi Urban Art Commission.",
-            "technologies": ["c#", "windows phone 8", "metro app", "arduino"],
-            "show": true
-        },
+    {
+      "date": "06/11/2015",
+      "title": "IoT Traffic Management Model",
+      "description": "Was awarded 2nd by Delhi Urban Art Commission.",
+      "technologies": ["c#", "windows phone 8", "metro app", "arduino"],
+      "show": true
+    },
 
-        {
-            "date": "26/04/2016",
-            "title": "Earned two MTA Certificate",
-            "description": "Self studied from MVA and other online resources.",
-            "technologies": ["c#", "html"],
-            "show": true
-        },
+    {
+      "date": "26/04/2016",
+      "title": "Earned two MTA Certificate",
+      "description": "Self studied from MVA and other online resources.",
+      "technologies": ["c#", "html"],
+      "show": true
+    },
 
-        {
-            "date": "03/07/2017",
-            "title": "Coding Competition Winner",
-            "description": "Winner in AKTU zonal level coding competitions",
-            "technologies": ["C", "c#"],
-            "show": true
-        },
+    {
+      "date": "03/07/2017",
+      "title": "Coding Competition Winner",
+      "description": "Winner in AKTU zonal level coding competitions",
+      "technologies": ["C", "c#"],
+      "show": true
+    },
 
-        {
-            "date": "27/11/2017",
-            "title": "Android Game Published",
-            "description": "Published an 2d android game on play store.",
-            "technologies": ["java", "android studio"],
-            "link": "https://play.google.com/store/apps/details?id=com.nigam.ankur.chainreactionmultiplayer",
-            "show": true
-        },
+    {
+      "date": "27/11/2017",
+      "title": "Android Game Published",
+      "description": "Published an 2d android game on play store.",
+      "technologies": ["java", "android studio"],
+      "link": "https://play.google.com/store/apps/details?id=com.nigam.ankur.chainreactionmultiplayer",
+      "show": false
+    },
 
-        {
-            "date": "16/08/2018",
-            "title": "ERP and registration system",
-            "description": "Created erp and registration system for College's Cultural Club. With more than 150 user request at peak time.",
-            "technologies": ["asp.net core 2", "pwa", "vue", "sqlite", "azure"],
-            "link": "https://play.google.com/store/apps/details?id=iot.ankur.gniotculturalclub",
-            "show": true
-        },
+    {
+      "date": "16/08/2018",
+      "title": "ERP and registration system",
+      "description": "Created erp and registration system for College's Cultural Club. With more than 150 user request at peak time.",
+      "technologies": ["asp.net core 2", "pwa", "vue", "sqlite", "azure"],
+      "link": "https://play.google.com/store/apps/details?id=iot.ankur.gniotculturalclub",
+      "show": true
+    },
 
-        {
-            "date": "06/12/2018",
-            "title": "Contributed on Nano Framework",
-            "description": "Actively found and resolved bugs for the open source Nano Framework and its release of MQTT in stable.",
-            "technologies": ["nano-framework", "c#", "c++", "visual studio"],
-            "show": true
-        },
+    {
+      "date": "06/12/2018",
+      "title": "Contributed on Nano Framework",
+      "description": "Actively found and resolved bugs for the open source Nano Framework and its release of MQTT in stable.",
+      "technologies": ["nano-framework", "c#", "c++", "visual studio"],
+      "show": true
+    },
 
-        {
-            "date": "25/04/2019",
-            "title": "Motion Detection Surveillance System",
-            "description": "Created UWP app to monitor and alert its clients for and motion seen by camera. Implemented its whole algorithm as libraries were not compatible with UWP.",
-            "technologies": [
-                "c#",
-                "uwp",
-                "windows 10",
-                "service workers",
-                "notification api",
-                "javascript"
-            ],
-            "link": "https://github.com/ankur198/MotionDetectionSurvilance",
-            "show": true
-        },
+    {
+      "date": "25/04/2019",
+      "title": "Motion Detection Surveillance System",
+      "description": "Created UWP app to monitor and alert its clients for and motion seen by camera. Implemented its whole algorithm as libraries were not compatible with UWP.",
+      "technologies": [
+        "c#",
+        "uwp",
+        "windows 10",
+        "service workers",
+        "notification api",
+        "javascript"
+      ],
+      "link": "https://github.com/ankur198/MotionDetectionSurvilance",
+      "show": true
+    },
 
-        {
-            "date": "12/01/2020",
-            "title": "Microservices based ERP",
-            "description": "Multiple api providers for different services, packed into containers",
-            "technologies": ["C#", "Identity Server", "Quasar","OAuth2","Docker"],
-            "link": "https://github.com/VirtualCollegeGnit",
-            "show": true
-        }
-    ],
+    {
+      "date": "12/01/2020",
+      "title": "Microservices based ERP",
+      "description": "Multiple api providers for different services, packed into containers",
+      "technologies": ["C#", "Identity Server", "Quasar", "OAuth2", "Docker"],
+      "link": "https://github.com/VirtualCollegeGnit",
+      "show": false
+    },
 
-    "social": {
-        "name": "Ankur Nigam",
-        "email": "ankur.nigam198@live.com",
-        "phone": "+91-8130030198",
-        "github": "https://github.com/ankur198/",
-        "linkedin": "https://www.linkedin.com/in/ankuriot/",
-        "image": "./19951777.png",
-        "dob": "19/05/1998 - 21 years old",
-        "description": "Heavily focused on C#, Python, Javascript and IoT"
+    {
+      "date": "02/03/2020",
+      "title": "Joined nagarro",
+      "description": "Created multiple projects which are used internally as well as by client.",
+      "technologies": ["C#", "Java", "Js", "Angular"],
+      "show": true
+    },
+    {
+      "date": "26/06/2020",
+      "title": "Millions User Project",
+      "description": "Worked in a government project with millions of active users",
+      "technologies": ["C#", "Terraform", "Azure", "Azure Pipelines", "Docker"],
+      "show": true
+    },
+    {
+      "date": "01/10/2020",
+      "title": "Founded an opensource community: ffive.xyz",
+      "description": "Contributing back to developer community",
+      "link": "ffive.xyz",
+      "show": true
     }
+  ],
+
+  "social": {
+    "name": "Ankur Nigam",
+    "email": "ankur.nigam198@live.com",
+    "phone": "+91-8130030198",
+    "github": "https://github.com/ankur198/",
+    "linkedin": "https://www.linkedin.com/in/ankuriot/",
+    "image": "./19951777.png",
+    "dob": "19/05/1998 - 21 years old",
+    "description": "Heavily focused on C#, Python, Javascript and IoT"
+  }
 }
