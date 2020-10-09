@@ -92,7 +92,7 @@
     },
     {
       "date": "26/06/2020",
-      "title": "Millions User Project",
+      "title": "Million User Project",
       "description": "Worked in a government project with millions of active users",
       "technologies": ["C#", "Terraform", "Azure", "Azure Pipelines", "Docker"],
       "show": true
